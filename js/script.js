@@ -20,8 +20,8 @@ let pokemonList = [
     },
     
     {
-        name: 'Psyduck'
-        , height: 0.8 
+        name: 'Psyduck',
+        height: 0.8 ,
         types: ['water']
     }
 ];
