@@ -1,24 +1,63 @@
-/* colors that we be used */
-
+/* colors that well be used */
+/* the colors are inspired by the Pokemon logo*/
 :root{
 
---primary-color :#adb4b2 ;
---primary-text-color :#0a5456;
---heads-color : #af7f54  ;
-}
+    --primary-color :#0A285F ;
+    --primary-text-color : #FFCC00 ;
+    --heads-color :#D5A100 ;
+    }
+    
+    body {
+        background-color: var(--primary-color);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    header{
+        color: var(--primary-text-color);
+        text-align: center;
+    }
+    
+    h2 {
+        color: var(--heads-color);
+    }
 
-body {
-    background-color: var(--primary-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    ul.pokemon-list {
+        list-style-type: none;
+        padding:10px;
+    }
+    
+/*adding styles to the button*/
+
+.button-class {
+   
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    line-height: 1.6;
-}
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.8s; 
+    transition-duration: 0.8s;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 3px solid #FB1B1B;
+/* the colors are inspired by the Pokemon ball*/
+}    
 
-header{
-    color: var(--primary-text-color);
-}
-
-h2 {
-    color: var(--heads-color);
-}
+    
+    
+    
+    
+    
+    
+    
+    
+    @media all and (max-width: 500px) {}
+    
+    @media all and (min-width: 500px) and (max-width: 750px){}
+    
+    @media all and (max-width: 750px){}
