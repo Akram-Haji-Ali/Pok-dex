@@ -1,98 +1,53 @@
-/* colors that well be used */
-/* the colors are inspired by the Pokemon logo*/
-:root{
-
-    --primary-color :#0A285F ;
-    --primary-text-color : #FFCC00 ;
+:root {
+    --primary-color:#0A285f ;
+    --second-color : rgba(255, 255, 255, 0.919);
     --heads-color :#D5A100 ;
-    }
-    
-    body {
-        background-color: var(--primary-color);
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-    }
-    
-    header{
-        color: var(--primary-text-color);
-        text-align: center;
-    }
-    
-    h2 {
-        padding: 16px 32px;
-        color: var(--heads-color);
-    }
-
-    ul.pokemon-list {
-        list-style-type: none;
-        padding:10px;
-    }
-    
-/*adding styles to the button*/
-
-.button-class {
-   
-    padding: 16px 32px;
-    align-items: center;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.8s; 
-    transition-duration: 0.8s;
-    cursor: pointer;
-    background-color: #FFFFFF;
-    color: #000000;
-    border: 3px solid #FB1B1B;
-/* the colors are inspired by the Pokemon ball*/
-}    
-
-.modal-container {
-    display: none;
-}
-
-.modal-container.is-visible {
-    position: fixed;
-    padding: 50px;
-    box-sizing: border-box;
-    top: 200px;
-    left: 40%;
-    width: 40%;
-    height: 60%;
-    background: rgb(254, 254, 254);
-    border: 3px solid #FB1B1B;
-
-    overflow: auto; 
-
-    display: grid;
-    text-align: center;
-}
-
-
-
-.modal {
-    margin: auto;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 15px;
-    width: 100%;
-    max-width: 700px;
-    text-align: center;
   }
 
+body {
+    font-family: "Lato", sans-serif;  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color:  darkgray ;
+    background-color: var(--primary-color);
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--heads-color);
+   
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--heads-color);
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+ 
+  .btn-primary {
+    background-color: #ee1515 !important ; 
     
-    
-    
-    
-    
-    
-    @media all and (max-width: 500px) {}
-    
-    @media all and (min-width: 500px) and (max-width: 750px){}
-    
-    @media all and (max-width: 750px){}
+}  
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display:inline-flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--second-color);
+    color: #222224;
+    background-clip: border-box;
+    border: 2px solid #F00000;
+    border-radius: 0.25rem;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+    margin: 45px;
+  }
